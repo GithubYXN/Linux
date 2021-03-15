@@ -180,8 +180,8 @@ int *GetEmptyRoom(int cave[ArraySize][ArraySize])
 	
 	do
 	{
-		row = random() % ArraySize;
-		col = random() % ArraySize;
+		row = rand() % ArraySize;
+		col = rand() % ArraySize;
 		
 		room = &cave[row][col];
 	} while (*room != Empty);
