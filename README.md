@@ -1,1 +1,1 @@
-# The code in Linux.
+# Write down my ideas.
