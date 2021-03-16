@@ -1,3 +1,4 @@
 # The code in Linux.
 
-Write my ideas and codes in this index.
+This repository record my ideas and codes in Linux.
+And also my leaning experience of computer science.
