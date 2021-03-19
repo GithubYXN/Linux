@@ -29,6 +29,8 @@ int main()
 
 	scanf("%1s", status);
 
+	getchar();
+
 	while(strcmp(status,"Y") == 0 )
 	{
 	trans = realloc(trans,sizeof(Tran)*(numTrans +1));
@@ -39,6 +41,8 @@ int main()
 	printf("Would you like to enter another transistor (Y/N)?\n");
 
 	scanf("%1s", status);
+	
+	getchar();
 	}
 
 	printf("\nThe transistors:\n");
